@@ -24,7 +24,7 @@
 		<footer class="entry-footer">
 			<div class="entry-meta">
 				<span class="entry-terms comments author">
-					<p><?php the_author(); ?></p>
+					<?php the_author(); ?>
 				</span>
 				<span class="entry-terms comments author">
 					<p><?php the_category(); ?></p>
