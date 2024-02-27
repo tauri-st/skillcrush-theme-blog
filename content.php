@@ -13,7 +13,9 @@
 <article id="post-<?php the_ID(); ?>" class="post-entry">
 	<div class="entry-wrap">
 		<header class="entry-header">
-			<p class="entry-time"><?php the_date(); ?></p>
+			<div class="entry-meta">
+				<p class="entry-time"><?php the_date(); ?></p>
+			</div>
 			<h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 		</header>
 		<div class="entry-summary">
