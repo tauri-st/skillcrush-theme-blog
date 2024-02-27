@@ -415,7 +415,7 @@ body {
 .entry-title a:hover {
 	color: #45ac9d;
 }
-.entry-time {
+.entry-time a {
 	color: #45ac9d;
 	font: 600 .82em/1.65 'OpenSans', Arial, sans-serif;
 }
@@ -512,7 +512,7 @@ body {
 	border-bottom: 1px solid #BFBFBF;
 	padding: 1.75em 1.8em;
 }
-#sidebar .widget_text img {
+#primary-sidebar .widget_block img {
 	max-width: 175px;
 	margin: auto;
 	display: block;
