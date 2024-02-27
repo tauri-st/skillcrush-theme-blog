@@ -14,7 +14,7 @@
 	<div class="entry-wrap">
 		<header class="entry-header">
 			<div class="entry-meta">
-				<p class="entry-time"><?php the_date(); ?></p>
+				<time class="entry-time"><?php echo get_the_date(); ?></time>
 			</div>
 			<h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
 		</header>
