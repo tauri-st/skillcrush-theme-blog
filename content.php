@@ -27,7 +27,7 @@
 					<?php the_author(); ?>
 				</span>
 				<span class="entry-terms comments author">
-					<p><?php the_category(); ?></p>
+					<?php the_category(); ?>
 				</span>
 				<span class="entry-terms comments author">
 					<a href="<?php comments_link(); ?>"><?php comments_number( '<span>No Comments</span>', '1 Comment', '% comments' ); ?></a>
