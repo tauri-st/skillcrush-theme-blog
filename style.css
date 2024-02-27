@@ -415,7 +415,7 @@ body {
 .entry-title a:hover {
 	color: #45ac9d;
 }
-.entry-time a {
+.entry-time {
 	color: #45ac9d;
 	font: 600 .82em/1.65 'OpenSans', Arial, sans-serif;
 }
