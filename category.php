@@ -20,7 +20,7 @@ get_header(); ?>
 		<?php if ( have_posts()) : ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<?php get_template_part( 'content-category', get_post_format() ); ?>
-			<?php }; ?>
+			<?php endwhile; ?>
 		<?php else: ?>
 			<article>
 				<h4>No posts found!</h4>
