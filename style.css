@@ -569,6 +569,10 @@ body {
 #sidebar .widget_archive ul li a {
 	color: #3b3b3b;
 }
+
+#primary-sidebar .popular-posts {
+	padding: 0;
+}
 /* End SIDEBAR STYLES */
 
 /* NEXT / PREV STYLES */
