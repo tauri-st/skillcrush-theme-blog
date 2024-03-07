@@ -254,6 +254,9 @@ input[type="reset"],
 input[type="submit"] {
 	cursor: pointer;
 }
+a, a:link, a:visited {
+	color:black;
+}
 /* End MAIN STYLES */
 
 /* BODY STYLES */
